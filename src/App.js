@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import ProductCard from './components/ProductCard';
 import data from './data.json';
 import CartCard from './components/CartCard';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ModalConfirmation from './components/ModalConfirmation';
 function App() {
   const [itemsInCart, setItemsInCart] = useState([]);

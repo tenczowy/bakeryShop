@@ -20,7 +20,7 @@ function CartCard({ items, deleteItems, confirmOrder }) {
         <img
           style={{ scale: '0.75' }}
           src="./assets/images/illustration-empty-cart.svg"
-          alt="empty cart image"
+          alt="empty cart placeholder"
         />
         <p style={{ fontSize: '0.9rem', textAlign: 'center', color: 'grey' }}>
           Your added items will appear here

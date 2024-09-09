@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/cart-card.css';
 import { GiConfirmed } from 'react-icons/gi';
 import data from '../data.json';
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 function ModalConfirmation({ items, resetCart }) {
   const modalRef = useRef(null);
